@@ -19,18 +19,4 @@ Open-source RAG chatbot for large PDF corpora.
 - Hugging Face generation model
 - Source citations by file and page
 
-## Local run
 
-```bash
-pip install -r requirements.txt
-python ingest.py
-python app.py
-```
-
-## Folder structure
-
-- `data/pdfs/`: place input PDFs here
-- `db/`: saved FAISS index and chunk metadata
-
-## Notes
-If `db/index.faiss` is missing, run `python ingest.py` first.
