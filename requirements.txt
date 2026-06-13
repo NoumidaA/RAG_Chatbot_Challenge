@@ -1,0 +1,11 @@
+gradio
+pymupdf
+pytesseract
+Pillow
+numpy
+tqdm
+sentence-transformers
+faiss-cpu
+transformers
+accelerate
+torch
